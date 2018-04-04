@@ -1,0 +1,162 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #f1f1f1;
+	font-family: Raleway, sans-serif;
+	padding: 0 15px;
+	line-height: 1.5;
+}
+header{
+	text-align: center;
+	padding: 40px 10px;
+}
+header h1{
+	text-transform: uppercase;
+}
+header span{
+	background-color: #000000;
+	color: #fff;
+	padding: 4px 7px;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+p, h3, h4, h5{
+	padding: 0 16px;
+	margin: 12px 0;
+}
+h3{
+	text-transform: uppercase;
+	font-size: 24px;
+}
+h4{
+	font-size: 20px;
+}
+h5{
+	font-size: 18px;
+	font-weight: 400;
+	padding-bottom: 15px;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1400px;
+	margin: auto;
+}
+.container main{
+	width: 67%;
+}
+.container aside{
+	width: 31%;
+}
+.shadow{
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+	margin-bottom: 36px;
+}
+.block{
+	background-color: #fff;
+	height: auto;
+	margin-bottom: 40px;
+}
+.gr-date{
+	opacity: .5;
+}
+.rblock{
+	background-color: #fff;
+}
+.posts h4{
+	padding: 20px;
+	background-color: #F1F1F1;
+	font-weight: 400;
+}
+.posts ul{
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.posts ul li div{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.posts ul li div p{
+	margin: 0;
+	padding: 0;
+	margin-left: 12px;
+	text-align: left;
+	padding-bottom: 5px;
+}
+.posts ul li div .large{
+	font-size: 18px;
+}
+.posts ul li img{
+	width: 50px;
+	border: none;
+	display: inline-block;
+}
+.posts ul li{
+	padding: 16px 16px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    max-height: 81px;
+}
+button{
+	padding: 12px 24px;
+	border: 1px solid #ccc;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    font-size: 1.02em;
+}
+button:hover{
+	background-color: #cccccc;
+}
+.posts ul li:hover{
+	background-color: #cccccc;
+}
+.comm{
+	display: inline-block;
+	font-weight: bold;
+	float: right;
+	margin-right: 20px;
+}
+.circle{
+	border-radius: 50%;
+}
+.comm span{
+	background-color: #000;
+	color: #fff;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 10px;
+}
+.ava p{
+	padding: 15px;
+}
+.tag h4{
+	font-weight: 400;
+	padding: 18px;
+	background-color: #F1F1F1;
+}
+.tag i{
+	font-size: 12px;
+	font-style: normal;
+	display: inline-block;
+    padding: 2px 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.tag :nth-child(2){
+	background-color: #000;
+	color: #fff;
+	font-size: 15px;
+}
